@@ -1,0 +1,22 @@
+{
+  "name": "docker-nodejs-keycloak",
+  "version": "1.0.0",
+  "description": "Docker: NodeJs + Keycloak - Protegendo sua API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Medium",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "keycloak-connect": "^15.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
